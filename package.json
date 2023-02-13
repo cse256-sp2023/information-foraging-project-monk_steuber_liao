@@ -27,6 +27,6 @@
     "stringify": "^5.2.0",
     "tsify": "^4.0.1",
     "typescript": "^3.7.4",
-    "watchify": "^3.11.1"
+    "watchify": "^4.0.0"
   }
 }

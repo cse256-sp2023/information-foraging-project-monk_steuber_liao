@@ -232,3 +232,8 @@ span {
     width: 90%;
     border: none;
 }
+.sticky { 
+    position: fixed; 
+    top: 33px; 
+    width: 100%; 
+}
