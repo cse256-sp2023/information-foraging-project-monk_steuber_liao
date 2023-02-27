@@ -9,6 +9,13 @@ main li {
     margin-bottom: 1em;
 }
 
+iframe {
+    margin: auto;
+    height:700px;
+    width:80%;
+    zoom: 0.9;
+}
+
 .classroom {
     margin-top: 6em;
     margin-bottom: 1em;
