@@ -3,20 +3,27 @@ export function doSomething() {
 }
 
 export function displayPDF() {
-  var x = document.getElementById("cur_btn");
-  //var link = document.getElementById("copdf").href;
+  var x = document.getElementById('cur_btn');
   if (x != null) {
-    //x.onclick = function() {window.open(link, "_self")};
     x.onclick = function() {toggle('cur_over_pdf')};
   }
 }
 
+export function displayContent() {
+  var x = document.getElementById('class-goal-btn');
+  var y = document.getElementById('class-schedule-btn');
+  if (x != null) {
+    x.onclick = function() {toggle('classroom-goals')};
+  }
+  if (y != null) {
+    y.onclick = function() {toggle('class-schedule')};
+  }
+}
+
 function toggle(id) {
-  var pdfs = document.getElementById(id);
-  pdfs.style.display = (pdfs.style.display === 'none') ? 'block':'none';
-  // if (pdfs.style.display === "none") {
-  //   pdfs.style.display = "block";
-  // } else {
-  //   pdfs.style.display = "none";
-  // }
+  var item = document.getElementById(id);
+  if (item != null) {
+    console.log("click on "+ id)
+    item.style.display = (item.style.display === 'none') ? 'block':'none';
+  }
 }
