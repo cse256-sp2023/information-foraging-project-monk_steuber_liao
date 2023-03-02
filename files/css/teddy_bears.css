@@ -83,7 +83,7 @@ main li {
 }
 
 /*dropdown button*/
-.dropdropbtn{
+.dropbtn{
     margin:10px;
     padding:5px;
     border:none;
@@ -94,7 +94,7 @@ main li {
     border-color:#a51417;
     background-color:white;
 }
-.dropdropbtn:hover{
+.dropbtn:hover{
     background-color:#a51417;
     color:white;
 

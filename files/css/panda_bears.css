@@ -61,7 +61,7 @@ main li {
     font-size: 1.15em;
 }
 
-#class-schedule-t strong{
+#class-schedule strong {
     color: rgb(85, 85, 85);
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
@@ -69,37 +69,15 @@ main li {
     line-height: 18px;
 }
 
-#class-schedule-t table{
+#class-schedule table {
     border-collapse: collapse;
 }
 
-#class-schedule-t tbody{
+#class-schedule tbody {
     display: table-row-group;
     vertical-align: middle;
 }
 
-#class-schedule-t td{
+#class-schedule td {
     border: 1px solid #ddd;
-}
-
-/*dropdown button*/
-.dropdropbtn{
-    margin:10px;
-    padding:5px;
-    border:none;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1em;
-    color:#a51417;
-    border-radius:5px;
-    border-color:#a51417;
-    background-color:white;
-}
-.dropdropbtn:hover{
-    background-color:#a51417;
-    color:white;
-
-}
-
-.dropdown_content{
-    display:none;
 }
