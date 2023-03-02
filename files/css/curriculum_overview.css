@@ -35,3 +35,17 @@ iframe {
 .dropdown_content{
     display: none;
 }
+
+button{
+    padding: 8px;
+    margin-bottom: 3px;
+    background-color: rgb(225, 225, 225);
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(119, 0, 0);
+}
+
+button:hover{
+    background-color: rgb(119, 0, 0);
+    color: white;
+}
