@@ -1,6 +1,6 @@
 import { HTMLLoader } from '../core/utils/html_loader';
 import { Accordion } from './accordion';
-import { doSomething } from './do-something';
+import { doSomething, displayPDF, displayContent } from './do-something';
 import { HTMLContent, itemsToCache } from './html-imports';
 import { Slideshow } from './slideshow';
 import { setupStickey } from './sticky'
@@ -11,6 +11,8 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     // For example you could write: Sticky.setup()
     doSomething();
     setupStickey();
+    displayPDF();
+    displayContent();
 }
 
 export async function setupAll() {
