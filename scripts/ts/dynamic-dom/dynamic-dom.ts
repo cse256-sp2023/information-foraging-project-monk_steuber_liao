@@ -3,7 +3,7 @@ import { Accordion } from './accordion';
 import { doSomething } from './do-something';
 import { HTMLContent, itemsToCache } from './html-imports';
 import { Slideshow } from './slideshow';
-import {classInformation, classroommGoals, classSchedule} from './dropdown';
+import {classInformation, classroommGoals, classSchedule, langInfo, mathInfo, scienceInfo, socialInfo} from './dropdown';
 import { setupStickey } from './sticky';
 
 
@@ -16,6 +16,10 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     classInformation();
     classroommGoals();
     classSchedule();
+    langInfo();
+    mathInfo();
+    scienceInfo();
+    socialInfo();
 }
 
 export async function setupAll() {
