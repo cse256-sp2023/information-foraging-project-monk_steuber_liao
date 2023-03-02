@@ -95,6 +95,7 @@ export function scienceInfo(){
 export function socialInfo(){
     var x = document.getElementById('social_studies_info_dropdown');
     var y = document.getElementById('social_studies_info_content');
+    console.log("H")
     //chekcing if the element is not null
     if(x!=null){
         //check if element was clicked

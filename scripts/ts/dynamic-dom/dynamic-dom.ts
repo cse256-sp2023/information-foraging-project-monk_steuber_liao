@@ -1,6 +1,6 @@
 import { HTMLLoader } from '../core/utils/html_loader';
 import { Accordion } from './accordion';
-import { doSomething, displayPDF, displayContent } from './do-something';
+import { doSomething} from './do-something';
 import { HTMLContent, itemsToCache } from './html-imports';
 import { Slideshow } from './slideshow';
 import {classInformation, classroommGoals, classSchedule, langInfo, mathInfo, scienceInfo, socialInfo} from './dropdown';
@@ -12,8 +12,6 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     // For example you could write: Sticky.setup()
     doSomething();
     setupStickey();
-    displayPDF();
-    displayContent();
     classInformation();
     classroommGoals();
     classSchedule();

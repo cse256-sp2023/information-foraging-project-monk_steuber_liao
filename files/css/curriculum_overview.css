@@ -31,3 +31,7 @@ iframe {
 .classroom p {
     font-size: 1.15em;
 }
+
+.dropdown_content{
+    display: none;
+}
