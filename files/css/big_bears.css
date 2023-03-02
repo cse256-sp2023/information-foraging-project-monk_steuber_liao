@@ -1,4 +1,5 @@
 @import url("common.css");
+@import url("slideshow.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
 .announcements h4 {
@@ -60,7 +61,7 @@ main li {
     font-size: 1.15em;
 }
 
-#class-schedule strong {
+#class-schedule-t strong{
     color: rgb(85, 85, 85);
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
@@ -68,15 +69,37 @@ main li {
     line-height: 18px;
 }
 
-#class-schedule table {
+#class-schedule-t table{
     border-collapse: collapse;
 }
 
-#class-schedule tbody {
+#class-schedule-t tbody{
     display: table-row-group;
     vertical-align: middle;
 }
 
-#class-schedule td {
+#class-schedule-t td{
     border: 1px solid #ddd;
+}
+
+/*dropdown button*/
+.dropdropbtn{
+    margin:10px;
+    padding:5px;
+    border:none;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    color:#a51417;
+    border-radius:5px;
+    border-color:#a51417;
+    background-color:white;
+}
+.dropdropbtn:hover{
+    background-color:#a51417;
+    color:white;
+
+}
+
+.dropdown_content{
+    display:none;
 }
