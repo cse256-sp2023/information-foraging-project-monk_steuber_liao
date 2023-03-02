@@ -19,8 +19,6 @@
     <main>
       <h1>Teddy Bears</h1>
 
-      
-
       <div id="small-image-collection">
         <img class="alignnone size-thumbnail wp-image-25044"
           src="https://nurseryschool.wustl.edu/files/2018/04/IMG_1610-150x150.jpeg" alt="" width="150" height="150"
@@ -62,23 +60,7 @@
               https://nurseryschool.wustl.edu/files/2018/04/IMG_1634-128x128.jpeg    128w
             " sizes="(max-width: 150px) 100vw, 150px">
       </div>
-      <p>
-        Our classes focus on social development and learning through play.
-        Each year’s class builds on the previous year’s program in curriculum
-        experiences and activities offered. The classrooms are set up to
-        invite exploration and foster a lifelong love of learning. Our staff
-        is deeply committed to the young child and the importance of early
-        childhood education.
-      </p>
-      <p>
-        Twos/Young Threes: Children must turn 3 by February 1 of that school
-        year. The focus of this class is on social development and learning
-        through play. Separating from parents, learning to take direction, and
-        being nurtured by people outside of immediate family are important
-        milestones for this age. The building of trust and growing peer
-        awareness are enhanced by a safe environment that provides a
-        foundation for learning.
-      </p>
+
       <h2>
         The Teddy Bear class is the morning session for 2 1/2 – and 3-year-old
         children. Teachers design a variety of engaging activities that
@@ -86,11 +68,13 @@
         The indoor classroom and outdoor playground are safe, interesting
         spaces for Teddy Bears to explore and make sense of their world.
       </h2>
+
       <h3>Announcements</h3>
       <div class="announcements">
         <h4>
           <a href="files/teddy_bear_photos.html" rel="bookmark">Teddy Bear Photos</a>
         </h4>
+        <p>*View recent photos of Teddy Bears</p>
         <p>May 28, 2019</p>
       </div>
       <hr>
@@ -98,42 +82,78 @@
         <h4>
           <a href="files/teddy_bear_news.html" rel="bookmark">Teddy Bear News</a>
         </h4>
+        <p>*Learn about what Teddy Bears are learning in their classes</p>
         <p>May 28, 2019</p>
       </div>
       <hr>
       <br>
-      <button id="class-goal-btn">
-        <h3>Classroom Goals</h3>
-      </button>
-      <div id="classroom-goals" style="display: none;">
-        <p>
-          The nursery school ensures that our school environment is safe,
-          healthy and conducive to children’s exploration and independence.
-          Our teachers encourage students to:
-        </p>
-        <ul>
-          <li>Explore, try and expand their experiences and interests.</li>
-          <li>
-            Express themselves through language, drama, art, music and play.
-          </li>
-          <li>Use their words to solve problems.</li>
-          <li>Recognize the rights, feelings and property of others.</li>
-          <li>Develop their motor coordination.</li>
-          <li>Increase their attention span.</li>
-          <li>Become more independent.</li>
-          <li>
-            Appreciate language, creativity, literacy and numbers in many
-            different forms.
-          </li>
-          <li>Recognize themselves as competent, interested learners.</li>
-        </ul>
+
+      <!--Class Information-->
+      <div id="class-information">
+        <h3>
+          <button id="class_information_dropdown" class="dropbtn">Class Information</button>
+        </h3>
+        <div id="class_information_content" class="dropdown_content">
+          <p>
+            Our classes focus on social development and learning through play.
+            Each year’s class builds on the previous year’s program in curriculum
+            experiences and activities offered. The classrooms are set up to
+            invite exploration and foster a lifelong love of learning. Our staff
+            is deeply committed to the young child and the importance of early
+            childhood education.
+          </p>
+          <p>
+            Twos/Young Threes: Children must turn 3 by February 1 of that school
+            year. The focus of this class is on social development and learning
+            through play. Separating from parents, learning to take direction, and
+            being nurtured by people outside of immediate family are important
+            milestones for this age. The building of trust and growing peer
+            awareness are enhanced by a safe environment that provides a
+            foundation for learning.
+          </p>
+        </div>
       </div>
-      <br>
-      <button id="class-schedule-btn">
-        <h3>Class Schedule</h3>
-      </button>
-      <div id="class-schedule" style="display: none;">
-        <table style="
+      <hr>
+
+      <!--Classroom Goals-->
+      <div id="classroom_goals">
+        <h3>
+          <button id="classroom_goals_dropdown" class="dropbtn">Classroom Goals</button>
+        </h3>
+        <div id="classroom_goals_content" class="dropdown_content">
+          <p>
+            The nursery school ensures that our school environment is safe,
+            healthy and conducive to children’s exploration and independence.
+            Our teachers encourage students to:
+          </p>
+          <ul>
+            <li>Explore, try and expand their experiences and interests.</li>
+            <li>
+              Express themselves through language, drama, art, music and play.
+            </li>
+            <li>Use their words to solve problems.</li>
+            <li>Recognize the rights, feelings and property of others.</li>
+            <li>Develop their motor coordination.</li>
+            <li>Increase their attention span.</li>
+            <li>Become more independent.</li>
+            <li>
+              Appreciate language, creativity, literacy and numbers in many
+              different forms.
+            </li>
+            <li>Recognize themselves as competent, interested learners.</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+
+      <!--Class Schedule-->
+      <div id="class_schedule">
+        <h3>
+          <button id="class_schedule_dropdown" class="dropbtn">Class Schedule</button>
+        </h3>
+        <div id="class_schedule_content" class="dropdown_content">
+          <div id="class-schedule-t">
+          <table style="
               border: none !important;
               width: 100%;
               margin-bottom: 40px;
@@ -207,7 +227,12 @@
           </tbody>
         </table>
       </div>
-      <p>Parents may consider extended hours (<a href="files/bear_tracks.html">Bear Tracks</a>)</p>
+        </div>
+      </div>
+      <hr>
+      <br>
+
+
       <h3>Teachers</h3>
       <div class="individual-staff-member">
         <div class="individual-staff-member-inner-div">
@@ -273,6 +298,7 @@
         </li>
       </ul>
     </div>
+
   </div>
   <ts-load data-name="footer"></ts-load>
   <script src="scripts/js/app.js"></script>
