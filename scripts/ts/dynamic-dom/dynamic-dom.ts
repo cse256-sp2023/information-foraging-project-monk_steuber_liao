@@ -3,6 +3,7 @@ import { Accordion } from './accordion';
 import { doSomething, displayPDF, displayContent } from './do-something';
 import { HTMLContent, itemsToCache } from './html-imports';
 import { Slideshow } from './slideshow';
+import {classInformation, classroommGoals, classSchedule, langInfo, mathInfo, scienceInfo, socialInfo} from './dropdown';
 import { setupStickey } from './sticky'
 
 // Put all function calls that need to be made on every page load inside the setupAll function body.
@@ -13,6 +14,13 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     setupStickey();
     displayPDF();
     displayContent();
+    classInformation();
+    classroommGoals();
+    classSchedule();
+    langInfo();
+    mathInfo();
+    scienceInfo();
+    socialInfo();
 }
 
 export async function setupAll() {
