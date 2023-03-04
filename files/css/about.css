@@ -1,2 +1,11 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+.page-content p {
+    display: flex;
+}
+
+.page-content img {
+    float: left;
+    margin-right: 35px;
+}
