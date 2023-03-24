@@ -49,3 +49,8 @@ button:hover{
     background-color: rgb(119, 0, 0);
     color: white;
 }
+
+a{
+    font-size: 23px;
+    color:brown;
+}
