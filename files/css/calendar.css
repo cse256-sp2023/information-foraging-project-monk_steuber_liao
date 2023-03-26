@@ -1,4 +1,6 @@
 @import url("common.css");
+@import url("slideshow.css");
+@import url("side_menu.css");
 html {
     scroll-behavior: smooth;
    }
